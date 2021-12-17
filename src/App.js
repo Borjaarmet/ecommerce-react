@@ -13,8 +13,8 @@ function App() {
       <div className="App">
         <BrowserRouter>
           <Header />
-          <Paginas />
           <Carrito />
+          <Paginas />
         </BrowserRouter>
       </div>
     </DataProvider>

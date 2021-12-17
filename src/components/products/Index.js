@@ -6,8 +6,6 @@ export const ProductsList = () => {
   const value = useContext(DataContext);
   const [products] = value.products;
 
-  console.log(products);
-
   return (
     <>
       <h1 className="title">Products</h1>
